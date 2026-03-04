@@ -12,6 +12,7 @@ import java.util.stream.Collectors;
 
 import static org.hamcrest.Matchers.instanceOf;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 @ExtendWith(ResultAnalyzer.class)
 public class MainTest {
